@@ -15,3 +15,5 @@ const storeSubscribe = () => {
 };
 
 store.subscribe(storeSubscribe);
+
+store.dispatch({ type: "INCREMENT" });
